@@ -1,3 +1,6 @@
+![icon](https://github.com/user-attachments/assets/fbb4532d-ef89-4ce4-89db-ebe587a07072)
+
+
 ## Pixelorama Local Checker Size
 This extension allows separate checker sizes for separate projects.
 
