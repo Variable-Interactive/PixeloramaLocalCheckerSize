@@ -1,0 +1,10 @@
+{
+"author": "Variable",
+"description": "Allows each project to have their own checker size",
+"display_name": "Local Checker Size",
+"license": "MIT",
+"name": "LocalCheckerSize",
+"nodes": ["Main.tscn"],
+"supported_api_versions": [6],
+"version": "0.1"
+}
