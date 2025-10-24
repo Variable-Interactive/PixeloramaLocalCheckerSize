@@ -35,7 +35,7 @@ func _enter_tree() -> void:
 				option_parent.add_child(new_proj_option_label)
 				option_parent.add_child(new_proj_value_slider)
 
-		# Add size option toproject properties
+		# Add size option to project properties
 		var proj_prop_dialog = global.top_menu_container.project_properties_dialog
 		proj_prop_dialog.instantiate_scene()
 		var proj_prop_window: Window = proj_prop_dialog.node
@@ -64,6 +64,7 @@ func _enter_tree() -> void:
 							c_proj.set_meta("checker_size", new_value)
 							api.general.get_global().checker_size = new_value
 				)
+				api.general.get_global().checker_size = initial_value
 
 				prop_parent.add_child(checker_size_label)
 				prop_parent.add_child(local_value_slider)
