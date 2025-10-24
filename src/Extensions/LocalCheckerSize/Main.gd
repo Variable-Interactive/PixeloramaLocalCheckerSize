@@ -62,9 +62,9 @@ func _enter_tree() -> void:
 						var c_proj = api.project.current_project
 						if is_instance_valid(c_proj):
 							c_proj.set_meta("checker_size", new_value)
-							api.general.get_global().checker_size = new_value
+							global.checker_size = new_value
 				)
-				api.general.get_global().checker_size = initial_value
+				global.checker_size = initial_value
 
 				prop_parent.add_child(checker_size_label)
 				prop_parent.add_child(local_value_slider)
